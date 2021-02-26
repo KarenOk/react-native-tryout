@@ -1,6 +1,8 @@
 import React from "react";
+// import { SafeAreaView } from "react-native";
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
+import LoginScreen from "./app/screens/LoginScreen";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 
@@ -11,6 +13,9 @@ const AppNavigator = createStackNavigator(
 		},
 		ViewImages: {
 			screen: ViewImageScreen,
+		},
+		Login: {
+			screen: LoginScreen,
 		},
 	},
 	{

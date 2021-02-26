@@ -21,7 +21,7 @@ const WelcomeScreen = ({ navigation }) => {
 					<Text style={styles.logoText}> FashionNova</Text>
 				</View>
 				<TouchableHighlight
-					onPress={() => navigation.navigate("ViewImages")}
+					onPress={() => navigation.navigate("Login")}
 					style={styles.buttonTouchableHighlight}
 				>
 					<View style={[styles.button, styles.loginButton]}>
@@ -33,7 +33,7 @@ const WelcomeScreen = ({ navigation }) => {
 					style={styles.buttonTouchableHighlight}
 				>
 					<View style={[styles.button, styles.registerButton]}>
-						<Text style={styles.buttonText}> REGISTER </Text>
+						<Text style={styles.buttonText}> VIEW IMAGES </Text>
 					</View>
 				</TouchableHighlight>
 			</SafeAreaView>
